@@ -1,0 +1,26 @@
+.button{
+    font-size: medium;
+    color: hotpink;
+    border: 1px;
+    border-radius: 1px;
+    border-color: #f3ffff;
+
+}
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0c9381;
+}
+.frame {
+    z-index: 1000;
+    /* position: relative; */
+    top: 50%;
+    left: 50%;
+    background-color: aliceblue;
+    /* transform: translate(50%, 50%); */
+    
+}
+.card {
+ 
+    border: 1 px solid #ddd;
+    padding: 1.5 rem;
+}

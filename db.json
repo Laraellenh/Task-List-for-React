@@ -1,0 +1,157 @@
+{
+  "tasks": [
+    {
+      "task": "DSA",
+      "id": 1,
+      "done": false
+    },
+    {
+      "task": "repeat Flatiron phase 2 coding challenge",
+      "id": 2,
+      "done": false
+    },
+    {
+      "task": "graph traversal",
+      "id": 3,
+      "done": false
+    },
+    {
+      "task": "review testing unit, integration, e2e using Jest",
+      "id": 4,
+      "done": false
+    },
+    {
+      "task": "repeat Flatiron phase 1 vanilla JS coding challenge",
+      "id": 5,
+      "done": false
+    },
+    {
+      "task": "review data modeling (this time from front end or back end for front end rather than ruby",
+      "id": 6,
+      "done": false
+    },
+    {
+      "task": " string manipulation including reversal, palindrome, capital/lowercase, integer to string and back",
+      "id": 7,
+      "done": false
+    },
+    {
+      "task": "review Magento",
+      "id": 8,
+      "done": false
+    },
+    {
+      "task": "review GraphQL and learn basics commands and installation",
+      "id": 9,
+      "done": false
+    },
+    {
+      "task": "review Docker including how to install and how it differs from Kubernetes",
+      "id": 10,
+      "done": false
+    },
+    {
+      "task": "frontend Podcast with expert",
+      "id": 11,
+      "done": false
+    },
+    {
+      "task": "review react hooks",
+      "id": 12,
+      "done": false
+    },
+    {
+      "task": "research react lifecycle methods and practice",
+      "id": 13,
+      "done": false
+    },
+    {
+      "task": "React practice assessment",
+      "id": 14
+    },
+    {
+      "task": "review interview best practices",
+      "id": 15,
+      "done": false
+    },
+    {
+      "task": "testing, edge cases",
+      "id": 16,
+      "done": false
+    },
+    {
+      "task": "how to approach Greefield Solution because React is so open ended - libraries, architecture, ect",
+      "id": 17,
+      "done": false
+    },
+    {
+      "task": "concurrency",
+      "id": 18,
+      "done": false
+    },
+    {
+      "task": "graph traversal",
+      "id": 19,
+      "done": false
+    },
+    {
+      "task": "leetcode 1 hour DSA",
+      "id": 20,
+      "done": false
+    },
+    {
+      "task": "leetcode 1 graph traversal",
+      "id": 21,
+      "done": false
+    },
+    {
+      "task": "Big O overview",
+      "id": 22,
+      "done": false
+    },
+    {
+      "task": "Big O practice",
+      "id": 23,
+      "done": false
+    },
+    {
+      "task": "Build tic tac toe",
+      "id": 24,
+      "done": false
+    },
+    {
+      "task": "Learn more CSS",
+      "id": 25
+    },
+    {
+      "task": "Add css to a new react app",
+      "id": 26
+    },
+    {
+      "task": "Setup am Egghead account",
+      "id": 27
+    }
+  ],
+  "hooks": [
+    {
+      "hook": "useState",
+      "function": "const [variable, setVariable = useState()",
+      "uses": "keep track of value of variables between function calls (same as using this.state.) React preserves the variables. Can keep track of objects, strings, numbers, any data type"
+    },
+    {
+      "hook": "useEffect",
+      "function": "useEffect(()=> {function}, []) also common, useEffect(()=> {fetch(url).then(response=>response.json().then(setterFunction(variable) ",
+      "uses": "fetch data, allows us to access count state variable inside the component or any props from the effect, its in the function of the scopt. It runs after first render and every update, so you may need to customize "
+    },
+    {
+      "hook": "useContext",
+      "function": "Const value = useContext(MyContext);",
+      "uses": "Accepts a context object -the value returned from React.createContext - and returns the current context value. determined by the value of prop of the nearest <MyContext.Provider> above the calling component in the tree. Dont forget that the argument to useContext must be the context object itself. useContext(MyContext)"
+    },
+    {
+      "hook": "useReducer",
+      "function": "Const [state, dispatch] = useReducer(reducer, initialArg, init);",
+      "uses": "alternative to useState, accepts a reducer of type (state, action)=>newState, returns current state paired with dispatch method, similar to reduc. Good to optimize performance, share data widely, logic involves multiple subvalues (to avoid passing props over and over. "
+    }
+  ]
+}
